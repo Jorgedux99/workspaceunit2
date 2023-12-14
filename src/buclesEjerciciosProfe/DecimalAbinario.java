@@ -11,7 +11,7 @@ public class DecimalAbinario {
 		int contadorExponente = 0;
 		int cifra =0;
 		double numDecimal = 0.0;
-		int cadenaBinaria;
+		int cadenaBinaria = 0;
 		
 		System.out.println("Introduzca el número decimal para pasar a binario: ");
 		n = sc.nextInt();
@@ -26,6 +26,7 @@ public class DecimalAbinario {
 			
 		}
 		
+		System.out.println("El número " + n + " en binario es " + cadenaBinaria);
 	}
 
 }

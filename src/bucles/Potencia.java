@@ -10,7 +10,7 @@ public class Potencia {
 		int num=0;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Dame el número del que quieres calcula la potencia a la cuarta");
+		System.out.println("Dame el nï¿½mero del que quieres calcula la potencia a la cuarta");
 		
 		num= sc.nextInt();
 		int j=1;
