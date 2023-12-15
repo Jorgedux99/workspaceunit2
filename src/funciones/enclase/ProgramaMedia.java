@@ -57,6 +57,7 @@ public class ProgramaMedia {
 			
 		min++;
 		
+		
 		for (int i=min; i<=max; i+=2) {
 			
 			resultado +=1;
