@@ -102,6 +102,17 @@ public class FuncionesMatematicas {
 		return numRes;
 		
 	}
+	
+	// this function receives a number and a digit and returns the fist position of this digit
+	// in the number. As a way to illustrate the input and output, providing that this call is performed
+	//digitPosition(54492,4) the returned value should be 3, the position of the first ocurrence of the digit 4
+	
+	public static int digitPosition (int num, int digit) {
+		
+		
+		
+		
+	}
 		
 	
 	//delete the n digit of a given number num
@@ -165,7 +176,6 @@ public class FuncionesMatematicas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int numRes;
 		int num1,num2;
 		double result;
 		Scanner sc = new Scanner(System.in);
@@ -186,9 +196,7 @@ public class FuncionesMatematicas {
 		 int outcome= deleteNDigit(num1, num2);
 		
 	     System.out.println("the number after taking out the " + num2 + " position for "+  num1+ " is " + outcome);
-
-	     replaceDigitByPosition(numRes);
-	     
+   
 	}
 		
 	}
